@@ -1,0 +1,18 @@
+# Ignore node_modules (it will be installed in the container)
+node_modules/
+
+# Ignore dist (it will be built during the build process)
+dist/
+
+# Ignore logs, IDE files, and other temporary files
+.angular/
+documentation/
+*.log
+.idea/
+.vscode/
+*.bak
+*.swp
+
+# Ignore Git metadata
+.git/
+.gitignore
